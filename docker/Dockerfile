@@ -1,5 +1,5 @@
 # Usa una imagen de Java 11 como imagen base
-FROM adoptopenjdk/openjdk17:alpine-jre
+FROM openjdk:17-jre-alpine
 
 # Establece el directorio de trabajo en /app
 WORKDIR /app
