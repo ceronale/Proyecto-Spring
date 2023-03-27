@@ -5,7 +5,7 @@ FROM adoptopenjdk/openjdk11:alpine-jre
 WORKDIR /app
 
 # Copia el archivo .jar de la aplicación desde el host al contenedor
-COPY target/my-app.jar app.jar
+COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
 
 # Expone el puerto 8080 en el contenedor
 EXPOSE 8080
